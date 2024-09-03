@@ -9,6 +9,5 @@ def start_ollama():
         exit(1)
 
 if __name__ == "__main__":
-    start_ollama()
     bot = IELTSBot()
     bot.start()

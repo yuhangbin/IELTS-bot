@@ -10,8 +10,8 @@ class IELTSChain:
         prompt = PromptTemplate(template=template, input_variables=["question"])
         return LLMChain(llm=self.llm.llm, prompt=prompt)
 
-    def run_chain(self, chain, question):
-        return chain.invoke(question=question)
+    def run_chain(self, chain, context):
+        return chain.invoke(input=context)  # Pass 'input' argument
 
     def reading_chain(self):
         template = """

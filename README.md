@@ -12,3 +12,7 @@ This Bot has four parts:
 
 
 Using RAG LLMs KnowledgeGraph Langchain or Llamaindex
+
+
+### IELTS Resources: 
+- https://github.com/shah0150/awesome-IELTS?tab=readme-ov-file#listening
